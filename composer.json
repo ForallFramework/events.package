@@ -13,8 +13,8 @@
   ],
   
   "support": {
-    "source": "https://github.com/ForallFramework/Forall",
-    "issues": "https://github.com/ForallFramework/Forall/issues"
+    "source": "https://github.com/ForallFramework/events.package",
+    "issues": "https://github.com/ForallFramework/events.package/issues"
   },
   
   "require": {
