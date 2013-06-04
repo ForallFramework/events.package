@@ -1,7 +1,0 @@
-{
-  "sourceDirectory": "src/",
-  "dependencies": ["core", "loader"],
-  "coreClasses": {
-    "events": "Events"
-  }
-}

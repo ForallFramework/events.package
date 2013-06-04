@@ -1,4 +1,4 @@
-# Events - Version 0.0.1 Alpha
+# Events - Version 0.0.2 Alpha
 
 ## Description
 
