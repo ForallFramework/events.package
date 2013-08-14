@@ -1,4 +1,4 @@
-# Events - Version 0.0.2 Alpha
+# Events - Version 0.1.0 Beta
 
 ## Description
 
@@ -6,14 +6,13 @@ The "events" package for the Forall framework. This is an advanced and powerful 
 handling system. It performs the following tasks:
 
 * Offers packages the necessary code to implement their own event handling.
-* Provides a generic global event emitter.
+* Provides a generic global event dispatcher.
 
 ## Features
 
 * Instance and static events.
 * Event levels (`"...:<level-two>:<level-one>"`).
 * Event bubbling in levels (one &rarr; two &rarr; ...).
-* Event bubbling in class structure (class instance &rarr; class static &rarr; parent class static).
 
 ## Change log
 

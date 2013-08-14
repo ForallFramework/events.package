@@ -11,14 +11,11 @@ use forall\core\core\AbstractCore;
 /**
  * Events class.
  */
-class Events extends AbstractCore implements EventEmitterInterface
+class Events extends AbstractCore implements EventDispatcherInterface
 {
   
-  use EventEmitterTraits;
+  use EventDispatcherTraits;
   
-  //Noop.
-  public function init()
-  {
-  }
+  public function init(){}
   
 }

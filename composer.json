@@ -18,7 +18,8 @@
   },
   
   "require": {
-    "forall/core": "*"
+    "forall/core": "*",
+    "forall/debug": "*"
   }
   
 }
