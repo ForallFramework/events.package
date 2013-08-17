@@ -20,6 +20,12 @@
   "require": {
     "forall/core": "*",
     "forall/debug": "*"
+  },
+  
+  "autoload": {
+    "psr-0": {
+      "forall\\events": "src/"
+    }
   }
   
 }

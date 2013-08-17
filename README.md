@@ -1,4 +1,4 @@
-# Events - Version 0.1.0 Beta
+# Events - Version 0.1.1 Beta
 
 ## Description
 
@@ -22,5 +22,5 @@ The change-log can be found in `CHANGES.md` in this directory.
 
 Copyright (c) 2013 Avaq, https://github.com/Avaq
 
-Forall is licensed under the MIT license. The license is included as LICENSE.md in the 
+Forall is licensed under the MIT license. The license is included as LICENSE.md in the
 [Forall environment repository](https://github.com/ForallFramework/Forall).
