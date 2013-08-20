@@ -8,7 +8,7 @@ namespace forall\events;
 
 /**
  * Event class.
- * 
+ *
  * An instance of this class is created for every event that is fired, and bubbles along
  * the event propagation.
  */
@@ -35,7 +35,7 @@ class Event
   
   /**
    * Contains the currently used propagation level.
-   * 
+   *
    * Possible values are: `Event::PROPAGATE_NONE`, `Event::PROPAGATE_IMMEDIATE`,
    * `Event::PROPAGATE_LEVELS` and `Event::PROPAGATE_STATIC`.
    *

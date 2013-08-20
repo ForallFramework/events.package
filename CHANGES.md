@@ -1,3 +1,12 @@
+#### [Version 0.1.2 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.2-beta)
+_20-Aug-2013_
+
+* Added a main.php that uses forall.loader to initialize the Events class.
+* Fixed: Missing abstract singleton methods in Events.
+* Fixed: Chaining doesn't work in `EventDispatcherTraits::once()`.
+* Fixed: Listener not passed by reference in `EventDispatcherInterface::once()`.
+* Cleared trailing white-space.
+
 #### [Version 0.1.1 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.1-beta)
 _17-Aug-2013_
 

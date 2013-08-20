@@ -30,7 +30,7 @@ interface EventDispatcherInterface
    *
    * @return self Chaining enabled.
    */
-  public function once($event, callable $listener);
+  public function once($event, callable & $listener);
   
   /**
    * Trigger an event, causing the callbacks listening to it to be executed.
@@ -53,7 +53,7 @@ interface EventDispatcherInterface
   
   /**
    * Removes listeners.
-   * 
+   *
    * Any of the parameters can be given to filter the matching events. You could for
    * for instance only give a listener, in which case all event listeners that use that
    * particular callable would be removed.

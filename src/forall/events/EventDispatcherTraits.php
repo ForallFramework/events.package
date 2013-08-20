@@ -67,16 +67,19 @@ trait EventDispatcherTraits
     $listener = function()use(&$listener, $name, $actual){
       $this->no($name, $listener);
       return call_user_func_array($actual, func_get_args());
-    }
+    };
     
     //Register the new listener.
     $this->on($name, $listener);
+    
+    //Enable chaining.
+    return $this;
     
   }
   
   /**
    * Trigger an event, causing the callbacks listening to it to be executed.
-   * 
+   *
    * #TODO: Explain the propagation.
    *
    * @param string $name The name of the event.
@@ -176,7 +179,7 @@ trait EventDispatcherTraits
   
   /**
    * Removes listeners.
-   * 
+   *
    * Any of the parameters can be given to filter the matching events. You could for
    * for instance only give a listener, in which case all event listeners that use that
    * particular callable would be removed.

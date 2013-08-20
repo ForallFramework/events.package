@@ -1,4 +1,4 @@
-# Events - Version 0.1.1 Beta
+# Events - Version 0.1.2 Beta
 
 ## Description
 

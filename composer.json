@@ -19,7 +19,8 @@
   
   "require": {
     "forall/core": "*",
-    "forall/debug": "*"
+    "forall/debug": "*",
+    "forall/loader": "*"
   },
   
   "autoload": {
