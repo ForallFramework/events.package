@@ -1,3 +1,8 @@
+#### [Version 0.1.4 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.4-beta)
+_29-Aug-2013_
+
+* Nothing.
+
 #### [Version 0.1.3 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.3-beta)
 _29-Aug-2013_
 
