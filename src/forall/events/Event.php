@@ -19,7 +19,6 @@ class Event
   const PROPAGATE_NONE = 0;
   const PROPAGATE_IMMEDIATE = 1;
   const PROPAGATE_LEVELS = 2;
-  const PROPAGATE_STATIC = 3;
   
   /**
    * Holds the name of the event.
@@ -36,8 +35,7 @@ class Event
   /**
    * Contains the currently used propagation level.
    *
-   * Possible values are: `Event::PROPAGATE_NONE`, `Event::PROPAGATE_IMMEDIATE`,
-   * `Event::PROPAGATE_LEVELS` and `Event::PROPAGATE_STATIC`.
+   * Possible values are: `Event::PROPAGATE_NONE`, `Event::PROPAGATE_IMMEDIATE` and `Event::PROPAGATE_LEVELS`.
    *
    * @var integer
    */

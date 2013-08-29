@@ -1,3 +1,11 @@
+#### [Version 0.1.3 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.3-beta)
+_29-Aug-2013_
+
+* Removed the old main.php, and created an init.php which works with the new core package
+  if it's installed.
+* Renamed Events to EventDispatcher, and removed its dependency to the Forall core package.
+* Removed code for non-implemented static event propagation.
+
 #### [Version 0.1.2 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.2-beta)
 _20-Aug-2013_
 
