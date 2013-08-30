@@ -1,4 +1,9 @@
-#### [Version 0.1.4 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.4-beta)
+#### [Version 0.1.5 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.5-beta)
+_30-Aug-2013_
+
+* Fixed composer.json. No longer a dependency to a non-existent package.
+
+#### [Version 0.1.5 Beta](https://github.com/ForallFramework/loader.package/tree/0.1.5-beta)
 _29-Aug-2013_
 
 * Nothing.

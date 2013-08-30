@@ -18,8 +18,7 @@
   },
   
   "require": {
-    "forall/debug": "*",
-    "forall/loader": "*"
+    "forall/debug": "*"
   },
   
   "autoload": {
